@@ -1,0 +1,43 @@
+@charset 'utf-8';
+/* https://fonts.google.com/specimen/Montserrat */
+/* https://www.figma.com/file/ldoL98MjPHURuWKMGn0B8S/Website-Design-(Community)?type=design&node-id=2003-123&mode=design&t=5h1S9UiBrrRIMtrh-0 */
+
+vl {
+  /* display: block; */
+  width: 10px;
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 150px;
+  font-size: 40px;
+  letter-spacing: -3px;
+}
+
+.hd {
+  max-width: calc(100% - 2rem);
+  margin: auto;
+  height: 80px;
+  position: relative;
+}
+
+.hd > * {
+  display: flex;
+  border: 1px solid red;
+}
+
+.hd > a {
+  padding: 1px;
+}
+
+.hd > img {
+  height: 10px;
+  border: 1px solid green;
+}
+
+.hd .navi > li {
+  height: 15px;
+  border: 1px solid blue;
+  justify-content: space-between;
+  padding: 1px;
+}
